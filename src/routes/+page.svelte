@@ -2,6 +2,7 @@
     console.log("hello world")
     import CanvasSquare from "$lib/components/CanvasSquare.svelte";
     import ClicksCounter from "$lib/components/ClicksCounter.svelte";
+    import TodoList from "$lib/components/TodoList.svelte";
     let count = $state(5)
 </script>
 
@@ -19,6 +20,8 @@
 <ClicksCounter initialCount={3} />
 
 <CanvasSquare />
+
+<TodoList />
 
 <style>
     h1 {
