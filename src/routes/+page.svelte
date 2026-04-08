@@ -1,7 +1,7 @@
 <script>
     console.log("hello world")
-    import ClicksCounter from "$lib/components/ClicksCounter.svelte"
-    import ProgressiveSum from "$lib/components/ProgressiveSum.svelte"
+    import CanvasSquare from "$lib/components/CanvasSquare.svelte";
+    import ClicksCounter from "$lib/components/ClicksCounter.svelte";
     let count = $state(5)
 </script>
 
@@ -12,13 +12,10 @@
 <p>Count from parent is {count}</p>
 <ClicksCounter initialCount={3} />
 
+<CanvasSquare />
 
 <style>
     h1 {
     color: deepskyblue;
-  }
-
-    p {
-    color: hotpink;
   }
 </style>
