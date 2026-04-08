@@ -11,6 +11,10 @@
 <ClicksCounter bind:initialCount={count} />
   {#if count > 10 && count < 20}
     <p>Count from parent is {count}</p>
+  {:else if count > 30}
+    <p>That's a lot of click</p>
+  {:else}  
+    <p>Count is not in range</p>
   {/if}
 <ClicksCounter initialCount={3} />
 
