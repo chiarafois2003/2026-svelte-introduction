@@ -17,4 +17,8 @@
     h1 {
     color: deepskyblue;
   }
+
+    p {
+    color: hotpink;
+  }
 </style>
